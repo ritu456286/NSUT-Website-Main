@@ -1,0 +1,206 @@
+a{
+    text-decoration: none;
+}
+
+.flexbox{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction:row ;
+    background-color: rgba(190, 19, 19, 0.873);
+}
+.side1 {color:antiquewhite;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 120px;
+}
+.side1 a{
+    color: antiquewhite;
+    
+}
+.side1 ul {
+    list-style: none;
+}
+.image{
+    padding-top: 40px;
+    width: 900px;
+    height: 600px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+.side2{
+    margin-top: 20px;
+    width: 300px;
+    background-color: antiquewhite;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(41, 40, 57);
+    color:white;
+    margin-top: 50px;
+    text-decoration:none;
+
+}
+.footer ul{
+    margin: 30px;
+    text-align:center;
+    color: aliceblue;
+    font-weight: 100;
+    font-family: 'Oswald', sans-serif;
+}
+.footer li {
+    list-style: none;
+    margin:10px;
+    text-decoration:none;
+    color: aliceblue;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(236, 228, 228);
+}
+.footer a:hover{
+    color: rgb(147, 204, 214)
+}
+.head2{
+    text-align: center;
+    
+}
+.info{
+    margin-top: 100px;
+    
+}
+.text{
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.text1{
+    
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+.heading{
+    display: flex;
+    gap:5px;
+    background-color:rgb(106, 106, 219) ;
+    color:white;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.heading a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.heading a:hover{
+    text-decoration: underline;
+}
+.heading2{
+    display:flex;
+    gap:6px;
+    height: 80px;
+    justify-content: space-evenly;
+
+    background-color: rgba(190, 19, 19, 0.873);
+}
+.heading2 img{
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.twodiv{
+    display: flex;
+    gap:0;
+}
+
+.nsut span{
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.nsut a{
+    color: black;
+}
+/* .rotate{
+} */
+.rotate:hover{
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+    transform: rotateX(360deg);
+}
+.nsut{
+    color: rgba(31, 7, 4, 0.919);
+}
+.address{
+    /* color:rgba(31, 7, 4, 0.919) ; */
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.address a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-weight: 900;
+}
+.address a:hover{
+    text-decoration: underline;
+    /* color: rgb(128, 125, 125); */
+}
+.address .loc-icon{
+    font-size: 45px;
+    margin-left: 5px;
+}
+
+/* for faculty page */
+.faculty-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(237, 237, 237);
+    margin: 5px;
+    padding: 8px;
+}
+.fac h3{
+    font-size:xx-large;
+}
+.fac button{
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    
+    background-color: brown;
+}
+.fac button a{
+    text-decoration: none;
+    color: white;
+}

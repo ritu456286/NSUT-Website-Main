@@ -1,0 +1,684 @@
+a{
+    text-decoration: none;
+}
+
+.imgslide{
+    width:100%;
+    height:900px;
+    background-image: url("./images/admission.png");
+    background-size:100% 100%;
+    animation-name:changeimg ; 
+    animation-iteration-count:infinite;
+    opacity: 80%;
+    animation-delay: 5s;
+    animation-duration: 20s;
+}
+@keyframes changeimg{
+    0%{
+        background-image: url("./images/img0.jpg");
+    }
+    25%{
+        background-image: url("./images/img1.jpg");
+    }
+    50%{
+        background-image: url("./images/img2.jpg");
+    }
+    75%{
+        background-image: url("./images/img3.jpg");
+    }
+    100%{
+        background-image: url("./images/img4.jpg");
+    }
+}
+body{
+    display:grid;
+    width:100%;
+    height:100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.heading{
+    display: flex;
+    gap:5px;
+    background-color:rgb(56, 56, 107) ;
+    color:white;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    
+}
+.heading a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.heading a:hover{
+    text-decoration: underline;
+}
+.heading2{
+    display:flex;
+    gap:6px;
+    height: 80px;
+    justify-content: space-evenly;
+
+}
+.heading2 img{
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.twodiv{
+    display: flex;
+    gap:0;
+}
+
+.nsut span{
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.nsut span a{
+    color: brown;
+}
+
+/*rotate*/
+.rotate:hover{
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+    transform: rotateX(360deg);
+}
+
+#g20{
+    height: 88px;
+    width: 157px;
+    border-radius: 10%;
+}
+.nsut{
+    color: rgba(8, 1, 0, 0.919);
+}
+.address{    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.address a{
+    text-decoration: none;
+    color: rgb(117, 81, 9);
+    font-weight: 900;
+}
+.address a:hover{
+    text-decoration: underline;
+    /* color: rgb(128, 125, 125); */
+}
+.address .loc-icon{
+    font-size: 45px;
+    margin-left: 5px;
+}
+
+/* NAV-GEET */
+.nav-geet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-updates{
+    background-color: rgb(171, 236, 152);
+    padding: 14px;
+    /* color: white; */
+    height: 16px;
+    z-index: 4;
+}
+marquee{
+    /* color: white; */
+    font-weight: 600;
+    width: 850px;
+    z-index: 4;
+    /* font-size: 2rem; */
+}
+marquee a{
+    color:black;
+}
+.nav-kulgeet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-kulgeet p{
+    font-size: larger;
+    color:rgb(155, 72, 20);
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    /* background: linear-gradient(red, #fbfbfb); */
+    /* -webkit-text-fill-color: transparent; */
+}
+.nav-kulgeet audio{
+    height: 25px;
+    width: 260px;
+}
+
+/* About Nsut */
+
+.About-NSUT{
+    display: flex;
+    flex-direction: column;
+}
+.About-NSUT h1{
+   margin: 20px;
+   /* text-decoration: underline; */
+   font-size: 2.5rem;
+   letter-spacing: 5px;
+}
+.About-NSUT .under{
+    text-decoration: underline;
+}
+.About-NSUT p{
+    width: 75%;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.btn-Know-more{
+    width: 102px;
+    height: 35px;
+    border: 1.5px solid black;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: rgb(102, 86, 241);
+    font-weight: bold;
+}
+.btn-Know-more:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.btn-Know-more a{
+    color: white;
+}
+
+/* Rankings */
+.rankings{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #141E46;
+    height: 320px;
+    box-sizing: border-box;
+
+}
+.rank-box{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    height: 200px;
+    width: 300px;
+}
+.title{
+    background-color: #b3dcff;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+.title h4{
+    margin-left: 20px;
+}
+.rank-info{
+    /* margin: 0px 10px; */
+    background-color: white;
+    position:relative;
+    left: 50px;
+    width: 300px;
+    height: 210px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.rank-info img{
+    width: auto;
+    height: 100px;
+    margin: 0 5.5px;
+}
+
+/* Videos */
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Dropdown */
+.navbar{
+    font-family: 'Oswald', sans-serif;
+}
+.aboutus{
+    position:relative;
+    display: inline-block;
+    
+}
+
+.aboutusspan{
+color:black;
+cursor:pointer;
+}
+
+.dropaboutus{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropaboutus a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropaboutus a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.aboutus:hover .dropaboutus {
+    display: block;
+  }
+  
+.aboutus:hover .aboutusspan {
+    background-color:#f1f1f1;
+}
+
+
+.administration{
+    position:relative;
+    display: inline-block;
+}
+
+.administrationspan{
+color:black;
+cursor:pointer;
+}
+
+.dropadministration{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropadministration a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropadministration a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.administration:hover .dropadministration {
+    display: block;
+  }
+  
+.administration:hover .administrationspan {
+    background-color:#f1f1f1;
+}
+
+.academics{
+    position:relative;
+    display: inline-block;
+}
+
+.academicsspan{
+color:black;
+cursor:pointer;
+}
+
+.dropacademics{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropacademics a{
+    color:black;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
+}
+
+.dropacademics a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.academics:hover .dropacademics {
+    display: block;
+}
+  
+  .academics:hover .academicsspan {
+    background-color:#f1f1f1;
+}
+
+.dropadmissions a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropadmissions a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.admissions:hover .dropadmissions {
+    display: block;
+  }
+  
+  .admissions:hover .admissionsspan {
+    background-color:#f1f1f1;
+}
+.alumni{
+    position:relative;
+    display: inline-block;
+}
+
+.alumnispan{
+color:black;
+cursor:pointer;
+}
+
+.dropalumni{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropalumni a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropalumni a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.alumni:hover .dropalumni {
+    display: block;
+  }
+  
+  .alumni:hover .alumnispan {
+    background-color:#f1f1f1;
+}
+.student{
+    position:relative;
+    display: inline-block;
+}
+
+.studentspan{
+color:black;
+cursor:pointer;}
+
+.dropstudent{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+
+.dropstudent a{
+    color:black;
+padding:5px ;
+text-decoration: none;
+display: block;
+}
+
+.dropstudent a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+
+.student:hover .dropstudent {
+    display: block;
+  }
+  
+  .student:hover .studentspan {
+    background-color:#f1f1f1;
+}
+.resources{
+    position:relative;
+    display: inline-block;
+}
+.resourcesspan{
+    color:black;
+    cursor:pointer;
+}
+.dropresources{
+    display: none; 
+    position: absolute;
+   background-color:white;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+.dropresources a{
+    color:black;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
+}
+.dropresources a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+.resources:hover .dropresources {
+    display: block;
+  }
+  
+  .resources:hover .resourcesspan {
+    background-color:#f1f1f1;
+}
+.research{
+    position:relative;
+    display: inline-block;
+}
+.researchspan{
+    color:black;
+    cursor:presearch
+}
+.dropresearch{
+    display: none; 
+    position: absolute;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: -1; */
+
+}
+.dropresearch a{
+    color:black;
+    padding:5px ;
+    text-decoration: none;
+    display: block;
+}
+.dropresearch a:hover {
+    background-color:black;
+    font-weight: 400;
+    color:white ;
+    display: flex;
+
+}
+.research:hover .dropresearch {
+    display: block;
+  }
+  
+  .research:hover .researchspan {
+    background-color:#f1f1f1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(144, 150, 148);
+}
+.heading{
+    position:sticky;
+}
+
+
+/* Content */
+.Departments{
+    margin: 10% 0;
+    background-color: rgb(201, 235, 181);
+    color:#141E46;
+    text-align: center;
+}
+.img1{
+    background-image: url("./images/dep-faculty.png");
+}
+.img2{
+    background-image: url("./images/dep-academic.png");
+}
+.img3{
+    background-image: url("./images/dep-center.png");
+}
+
+.imga{
+    background-image: url("./images/phd.jpeg");
+}
+.imgb{
+    background-image: url("./images/ug.jpeg");
+}
+.imgc{
+    background-image: url("./images/pg.jpg");
+    
+}
+.dept-img{
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+.dept-info{
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+}
+.custom-btn{
+    position: relative;
+    margin-bottom: 10%;
+    border: 5px white solid;
+}
+.custom-btn:hover{
+    cursor: pointer !important;
+}
+.custom-btn a{
+    color: white;
+}
+.admissions{
+    list-style:square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 16.5px;
+}
+.admissions a{
+    text-decoration: none;
+    line-height: 2;
+    color:rgba(39, 21, 1, 0.897)
+}
+.admissions a:visited{
+    color: rgb(82, 12, 69);
+}
+.admissions a:hover{
+    color: #094737;
+    /* text-decoration: underline; */
+}
+
+/* FOOTER */
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(49, 49, 64);
+    color:white;
+    margin-top: 50px;
+    text-decoration:none;
+
+}
+.footer ul{
+    margin: 30px;
+    text-align:center;
+    color: aliceblue;
+    font-weight: 100;
+}
+.footer li {
+    list-style: none;
+    margin:10px;
+    
+}
+.footer a{
+    text-decoration:none;
+    color: aliceblue;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.head2{
+    text-align: center;
+    color: rgb(224, 235, 236);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.copyright{
+    font-family:'Nunito', sans-serif;
+}
+.copyright a{
+    text-decoration:underline;
+}
