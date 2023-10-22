@@ -18,7 +18,7 @@ Welcome to the college - Netaji Subhas University of Technology, Delhi. We've cr
 ```cd nsut-website```
 - Open the "index.html" file in the web browser. 
 
-## Who are We?
+## Who am I?
 I am a sophomore at NSUT, Delhi pursuing B.Tech in CSE. This is my first full-frontend project.
 
 ## Fututre Scope
