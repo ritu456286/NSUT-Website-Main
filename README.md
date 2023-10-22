@@ -39,6 +39,6 @@ Please adhere to the project's code of conduct and coding guidelines.
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-If you have any questions, suggestions, or feedback, feel free to contact us at ritu.kansal456@gmail.com, jashanpreet....., lovish....
+If you have any questions, suggestions, or feedback, feel free to contact us at ritu.kansal456@gmail.com
 
 Happy coding!
