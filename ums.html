@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMS Portal</title>
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Oswald:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link href="departments.css" rel="stylesheet"/>
+    <link href="ums.css" rel="stylesheet"/>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon/favicon.ico">
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="heading" >
+        <a href="http://nsut.ac.in/en/jobs-nsut">Jobs@NSUT</a>
+        <a href="http://nsut.ac.in/en/tenders">Tenders</a>
+        <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=649953">Fee payment gateway</a>
+        <a href="http://nsut.ac.in/en/for-students/existing-students/training-%26-placement">Training & placement</a>
+        <a href="http://nsut.ac.in/en/resources/rti">RTI</a>
+        <a href="http://nsut.ac.in/en/ariia">ARIIA</a>
+        <a href="http://nsut.ac.in/en/iqac">IQAC</a>
+        <a href="http://nsut.ac.in/en/national-institute-ranking-framework-nirf">NIRF</a>
+        <a href="http://nsut.ac.in/en/icc">ICC</a>
+        <a href="#">UMS</a>
+        <a href="http://nsut.ac.in/en/contact-us">Contact us</a>
+    </div>
+    <div class="heading2">
+        <div class="twodiv">
+            <div class="logo">
+                <img src="./images/nsutlogo.jpg" class="rotate">
+            </div>
+            <div class="nsut">
+                <span><a href="project2.html">Netaji Subhas University Of Technology</a></span>
+                <p><a href="project2.html">formely Netaji Subhas Institute Of Technology(Govt. of NCT of Delhi)</a></p>
+            </div>
+        </div>
+
+        <div class="address">
+            <a href="#">Netaji Subhas University Of Technology(NSUT)<br>
+                Sec-3, Dwarka New Delhi-110078, India
+            </a>
+            <i class="fa-solid fa-location-dot loc-icon"></i>
+            
+        </div>
+
+    </div>
+    <form>   
+    <div class="outer-box">    
+        <div class="container">
+            <div class="box">
+                <div class="box-heading">
+                    <img src="images/nsutlogo.jpg" class="nsut-logo">
+                    <h1>UMS PORTAL</h1>
+                </div>
+                <!-- <div class="tabs">
+                    <button id="studentTab" class="tab">Student Login</button>
+                    <button id="staffTab" class="tab">Staff Login</button>
+                </div> -->
+                <div id="studentLogin" class="login-form">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="User ID">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="passwordInput">
+                        <!-- <button id="showPasswordButton"><i class="far fa-eye" id="eyeIcon"></i></button> -->
+                        <i class="fa-solid fa-eye" id="eyeIcon"></i>
+                    </div>
+                    <div class="captcha">
+                        <input type="text" placeholder="Entet CAPTCHA">
+                        <div class="captchaImage" alt="CAPTCHA">
+                        <!-- <i class="fa-solid fa-repeat"></i> -->
+                        
+                        </div>
+                    </div>
+                <button type="submit" id="studentSubmit">LOGIN</button>
+            </div>
+        </div>
+    </form>
+    <script src="ums.js"></script>
+        
+</body>
+</html>

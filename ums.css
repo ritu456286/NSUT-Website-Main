@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Roboto+Mono:ital@1&display=swap');
+/* .tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+    margin-top: 15px;
+} */
+
+/* .tab{
+  
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #007BFF;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    
+}
+
+.tab:hover{
+    background-color: #0056b3;
+} */
+/* 
+.login-form {
+    display: none;
+} */
+
+
+#eyeIcon{
+    cursor: pointer;
+}
+.box-heading img{
+    margin-right: 5%;
+}
+.captcha {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.captcha input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.captchaImage {
+    max-width: 100px;
+    font-family: 'Roboto Mono', monospace;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: x-large;
+    user-select: none;
+    font-style: italic;
+    background-color: rgb(206, 195, 181);
+    box-shadow: 2px 2px 2px 2px rgb(212, 168, 132)
+}
+
+.login-form div{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.login-form div input{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25vw;
+    height: 40px;
+    padding: 10px;
+}
+.login-form div i{
+    font-size: larger;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 25px; 
+    padding : 10px;
+    box-shadow: 2px 2px 2px 2px rgb(189, 223, 187);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: whitesmoke;
+}
+.container:hover{
+    box-shadow: 4px 4px 4px 4px rgb(162, 181, 160);
+}
+.outer-box{
+    display: flex;
+    align-items: center;
+    height: 120vh;
+    background-image: url("images/img0.jpg");
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-heading{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 25px;
+}
+.nsut-logo{
+    width: 15%;
+}
+
+#studentSubmit{
+    margin: 5% 5%;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: 5px solid red;
+    transition: background-color 0.25s ease-in-out;
+    font-weight: 900;
+    font-size: larger;
+}
+
+#studentSubmit:hover{
+    background-color: black;
+    color: white;
+}
