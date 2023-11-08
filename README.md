@@ -1,7 +1,7 @@
 # NSUT website
 
 ## Description:
-Welcome to our college - Netaji Subhas University of Technology, Delhi. We've created a fully-functional website for our college.
+Welcome to the college - Netaji Subhas University of Technology, Delhi. We've created a fully-functional website for our college.
 
 ## Features
 - Home page introducing the college.
@@ -18,8 +18,8 @@ Welcome to our college - Netaji Subhas University of Technology, Delhi. We've cr
 ```cd nsut-website```
 - Open the "index.html" file in the web browser. 
 
-## Who are We?
-We are sophomores at NSUT, Delhi pursuing B.Tech in CSE. This is our first full-frontend project.
+## Who am I?
+I am a sophomore at NSUT, Delhi pursuing B.Tech in CSE. This is my first full-frontend project.
 
 ## Fututre Scope
 * We will be integrating backend soon.
@@ -39,6 +39,6 @@ Please adhere to the project's code of conduct and coding guidelines.
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-If you have any questions, suggestions, or feedback, feel free to contact us at ritu.kansal456@gmail.com, jashanpreet....., lovish....
+If you have any questions, suggestions, or feedback, feel free to contact me at ritu.kansal456@gmail.com
 
 Happy coding!
