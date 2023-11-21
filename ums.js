@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(){
             updateCaptcha();
         } else {
             alert('Student login successful.');
-            window.location = "project2.html";
+            window.location = "project2.html"
         }
     });
 });
