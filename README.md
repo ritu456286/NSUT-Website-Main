@@ -1,7 +1,7 @@
 # NSUT website
 
 ## Description:
-Welcome to the college - Netaji Subhas University of Technology, Delhi. We've created a fully-functional website for our college.
+Welcome to the college - Netaji Subhas University of Technology, Delhi.
 
 ## Features
 - Home page introducing the college.
