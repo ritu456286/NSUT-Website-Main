@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
             eyeIcon.classList.add("fa-solid", "fa-eye");
         }
     });
-    
+
     // Update captcha
     function updateCaptcha() {
         const captchaText = generateCaptcha();
